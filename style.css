@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Noto+Sans+Display&display=swap');
 body {
     background-color: #fff;
     margin: 0;
@@ -15,6 +16,8 @@ body {
 
 h2, h3, p {
     color: #fff;
+    font-family: 'Bonheur Royale', cursive;
+    font-family: 'Noto Sans Display', sans-serif;
 }
 
 #logo {
@@ -86,6 +89,47 @@ a {
 
 #login-description{
     background-color: #0D1B21;
+    width: 450px;
 }
 
+#login-description {
+    padding: 30px;
+}
+
+#login-description h3{
+    font-size: 12px;
+}
+
+#login-description h2{
+    font-size: 16px;
+}
+
+#underline {
+    background: #13847B;
+    height: 5px;
+    width: 40px;
+}
+
+@media screen and (max-width: 760px) {
+    #body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        /* width: 87%; */
+    }
+
+    #login-options {
+        background-color: #fff;
+        border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        height: 400px;
+        width: 400px;
+        padding: 20px;
+        margin-bottom: 40px;
+    }
+    
+}
 /*  */
